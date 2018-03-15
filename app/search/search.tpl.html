@@ -1,0 +1,28 @@
+<form class="form" name="regiForm" >
+	<div class="group option-group" ng-init="selected='round'">
+		<input type="radio" name="tripway" ng-model="selected" value="round" data-icon='Round Trip' checked="" />
+		<input type="radio" name="tripway" ng-model="selected" value="oneWay" data-icon='One Way' />
+	</div>
+	<div class="UserActions clearfix">
+		
+		<div class="group">
+			<i class="fa fa-map-marker"></i>
+			<input class="control" type="text" placeholder="Source" cm-custom-select ng-model="sc.user.Source" />
+		</div>
+		<div class="group">
+			<i class="fa fa-map-marker"></i>
+			<input class="control" type="text" placeholder="Destination" cm-custom-select ng-model="sc.user.Destination" />
+		</div>
+		<div class="group">
+			<i class="fa fa-calendar"></i>		
+			<input class="control" cm-date-picker type="text" placeholder="Departure"  mindate="{{sc.DateofRet.minDate}}" maxdate="{{sc.DateofRet.maxDate}}" ng-model="sc.user.Depart" />
+		</div>
+		<div class="group" >
+			<i class="fa fa-calendar"></i>
+			<input class="control" cm-date-picker type="text" placeholder="Return" mindate="{{sc.DateofRet.minDate}}" maxdate="{{sc.DateofRet.maxDate}}"  ng-disabled="selected == 'oneWay'" ng-model="sc.user.Return" />
+		</div> 
+    
+		<button type="submit" class="btn btn-primary" ng-click="sc.SearchFlight(sc.user.Source,sc.user.Destination,sc.user.Depart,sc.user.Return)"><i class="fa fa-arrow-right"></i></button>
+	</div>
+	
+</form>
