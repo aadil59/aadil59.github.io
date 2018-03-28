@@ -1,0 +1,44 @@
+footer {
+    padding-bottom: 3em ;
+}
+
+.jumbotron {
+    background-color: transparent !important;
+    padding-bottom: 1em;
+}
+
+/* unvisited link */
+a:link {
+    color: #dd2c00;
+}
+
+/* visited link */
+a:visited {
+    color: #dd2c00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ff6434;
+    text-decoration:none;
+
+}
+
+/* selected link */
+a:active {
+    color: #a30000;
+}
+
+body h1, body h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+body p, body em {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+}
