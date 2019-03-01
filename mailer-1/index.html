@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Andika|Dancing+Script:400,700");
+
+      * {
+        margin: 0;
+        box-sizing: border-box;
+        -webkit-print-color-adjust: exact;
+      }
+
+      body {
+        background: #e0e0e0;
+        font-family: "Andika", sans-serif;
+      }
+
+      ::selection {
+        background: #d2691e;
+        color: #fff;
+      }
+
+      ::moz-selection {
+        background: #d2691e;
+        color: #fff;
+      }
+
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .col-left {
+        float: left;
+      }
+
+      .col-right {
+        float: right;
+      }
+
+      h1 {
+        /* font-family: 'Dancing Script', cursive; */
+        font-weight: 700;
+        font-size: 40px;
+        color: #444;
+      }
+
+      h2 {
+        font-size: 0.9em;
+      }
+
+      h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+      p {
+        font-size: 0.75em;
+        color: #666;
+        line-height: 1.2em;
+      }
+
+      a {
+        text-decoration: none;
+        color: #d2691e;
+      }
+
+      #invoiceholder {
+        width: 100%;
+        height: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+
+      #invoice {
+        position: relative;
+        margin: 0 auto;
+        width: 600px;
+        background: #ffffef;
+        color: #542e1c;
+      }
+
+      /* [id*='invoice-'] {
+            Targets all id with 'col-' 
+            border-bottom: 1px solid #EEE;
+        } */
+
+      #invoice-top {
+        border-bottom: 2px solid #d2691e;
+      }
+
+      #invoice-mid {
+        min-height: 110px;
+      }
+
+      h2 {
+        margin-bottom: 5px;
+        color: #444;
+      }
+
+      table td {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        vertical-align: top;
+        border: 2px solid #444444;
+        font-size: 16px;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+      }
+
+      table td img {
+        width: 100%;
+      }
+
+      .cta-group a {
+        display: inline-block;
+        padding: 7px;
+        border-radius: 4px;
+        background: rgb(196, 57, 10);
+        margin-right: 10px;
+        min-width: 100px;
+        text-align: center;
+        color: #fff;
+        font-size: 0.75em;
+      }
+
+      .cta-group .btn-primary {
+        background: #d2691e;
+      }
+
+      .cta-group.mobile-btn-group {
+        display: none;
+      }
+
+      footer {
+        border-top: 1px solid #eeeeee;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      #legalcopy {
+        text-align: center;
+      }
+
+      .effect2 {
+        position: relative;
+      }
+
+      .effect2:before,
+      .effect2:after {
+        z-index: -1;
+        position: absolute;
+        content: "";
+        bottom: 15px;
+        left: 10px;
+        width: 50%;
+        top: 80%;
+        max-width: 300px;
+        background: #777;
+        -webkit-box-shadow: 0 15px 10px #777;
+        -moz-box-shadow: 0 15px 10px #777;
+        box-shadow: 0 15px 10px #777;
+        -webkit-transform: rotate(-3deg);
+        -moz-transform: rotate(-3deg);
+        -o-transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);
+        transform: rotate(-3deg);
+      }
+
+      .effect2:after {
+        -webkit-transform: rotate(3deg);
+        -moz-transform: rotate(3deg);
+        -o-transform: rotate(3deg);
+        -ms-transform: rotate(3deg);
+        transform: rotate(3deg);
+        right: 10px;
+        left: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="invoiceholder">
+      <div id="invoice" class="effect2">
+        <a
+          href="http://parvadabungalows.com/"
+          id="invoice-top"
+          style="display:block;padding-top: 10px; padding-bottom: 10px; padding-left: 15px; padding-right: 15px"
+        >
+          <div class="title">
+            <h1 style="text-align: center; font-size: 20px; line-height: 18px;">
+              Make Parvada Bungalows your next holiday getaway
+            </h1>
+          </div>
+          <!--End Title-->
+        </a>
+        <!--End InvoiceTop-->
+        <div
+          id="invoice-mid"
+          style="padding-top: 5px; padding-bottom: 5px; padding-left: 20px; padding-right: 20px"
+        >
+          <div id="message">
+            <a
+              href="http://parvadabungalows.com/"
+              class="img-wrap"
+              style="display: block;border-radius: 170px;overflow: hidden; max-width: 420px;margin: auto;"
+            >
+              <img
+                width="100%"
+                src="images/globe.jpg"
+                alt="image"
+                title="image"
+              />
+            </a>
+            <a style="display:block;" href="http://parvadabungalows.com/">
+              <p
+                style="padding-top: 0px; padding-bottom: 5px;color: #542e1c;text-align: justify; font-size: 14px;line-height: 1.4em;letter-spacing: -0.6px;"
+              >
+                Parvada Banglows @VS Fruitree Estate, is a tranquil private
+                boutique resort offering a luxurious homestay like experience
+                situated in the "South Gola Range" of district Nainital,
+                Uttarakhand, at a 6 hour driving distance from Delhi. We are
+                located at an altitude of 7000 ft (2135mt) and at a distance of
+                10 km from Mukteshwar, 20 km from Ramgarh.
+              </p>
+            </a>
+          </div>
+          <!-- <div class="cta-group mobile-btn-group">
+                    <a href="javascript:void(0);" class="btn-primary">Approve</a>
+                    <a href="javascript:void(0);" class="btn-default">Reject</a>
+                </div> -->
+          <div class="list-card">
+            <table style="width: 100%;">
+              <tbody>
+                <tr>
+                  <td class="card">
+                    <a
+                      href="http://parvadabungalows.com/overview/"
+                      style="display:block;"
+                    >
+                      <img
+                        style="width: 90%;"
+                        src="http://parvadabungalows.com/wp-content/uploads/elementor/thumbs/DSC_5858-Copy-nv2un9we42x77kpfvbkp170zbe9z8k9dey0pv9uxbm.jpg"
+                        alt="image"
+                        title="image"
+                      />
+                      <h3>Overview</h3>
+                      <p>
+                        Parvada is a beautiful village situated in the “South
+                        Gola Range” of district Nainital, Uttarakhand, at a 6
+                        hour driving distance from Delhi. Uttarakhand is part of
+                        lower Himalayas.
+                      </p>
+                    </a>
+                  </td>
+                  <td class="card">
+                    <a
+                      href="http://parvadabungalows.com/arrival/"
+                      style="display:block;"
+                    >
+                      <img
+                        style="width: 90%;"
+                        src="http://parvadabungalows.com/wp-content/uploads/elementor/thumbs/Season-nu0t75ztywsfpucenanujlc2s8vsiw35suxesy0x04.jpg"
+                        alt="image"
+                        title="image"
+                      />
+                      <h3>Arrival</h3>
+                      <p>
+                        Parvada Bungalows in village Parvada is ideally
+                        situated, close to Delhi, Bareily, Moradabad, Nainital,
+                        Ramgarh, Mukteshwar. How do you get here?
+                      </p>
+                    </a>
+                  </td>
+                  <td class="card">
+                    <a
+                      href="http://parvadabungalows.com/tariff-and-booking/"
+                      style="display:block;"
+                    >
+                      <img
+                        style="width: 90%;"
+                        src="http://parvadabungalows.com/wp-content/uploads/elementor/thumbs/DSC_5979-Copy-1-nv2w7tutb8c8q4ovwyozmkgvzalsso6f26sj8yog00.jpg"
+                        alt="image"
+                        title="image"
+                      />
+                      <h3>Upcoming Events</h3>
+                      <p>
+                        Village Parvada is gearing up for the
+                        summer. Made by our talented local women, at the HAAT you can buy
+                        items...
+                        view more
+                      </p>
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div
+          id="invoice-bot"
+          style="padding-top: 0px; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; font-size: 18px;"
+        >
+          <p>
+            <strong>Parvada HAAT:</strong> Village Parvada is gearing up for the
+            summer. Made by our talented local women, at the HAAT you can buy
+            items ranging from knitwear...
+            <a href="http://parvadabungalows.com/tariff-and-booking/"
+              >view more</a
+            ><br />
+          </p>
+          <p style="margin-top: 5px;">
+            Make sure to make Parvada Bungalows as your summer getaway. Book
+            <a
+              href="http://parvadabungalows.com/tariff-and-booking/"
+              target="_blank"
+              >here</a
+            ><br />
+          </p>
+          <p style="margin-top: 5px;">
+            <strong>Orchard hopping:</strong> Starting with the orchard at
+            Parvada Bungalows, we will take you to a few fruit rich orchards to
+            enjoy plucking fresh fruits ...
+            <a href="http://parvadabungalows.com/tariff-and-booking/"
+              >view more</a
+            ><br />
+            Do find time to unwind at Parvada Bungalows this summer. Book
+            <a
+              href="http://parvadabungalows.com/tariff-and-booking/"
+              target="_blank"
+              >here</a
+            >
+          </p>
+        </div>
+        <footer>
+          <div id="legalcopy">
+            <p>
+              For booking and further details please visit our website
+              <a href="www.parvadabungalows.com" target="_blank"
+                >www.parvadabungalows.com</a
+              >
+              <br />or call or email us at +919844855916 or
+              <span class="email"
+                ><a href="mailto:parvadabungalows@gmail.com"
+                  >parvadabungalows@gmail.com</a
+                ></span
+              >
+            </p>
+          </div>
+        </footer>
+      </div>
+      <!--End Invoice-->
+    </div>
+    <!-- End Invoice Holder-->
+  </body>
+</html>
