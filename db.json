@@ -1,0 +1,132 @@
+{
+  "users": [
+    {
+      "name": "Pavneet Singh",
+      "email": "pavneet@nagarro.com",
+      "password": "pavn1234",
+      "phone": "9876543210",
+      "dob": "5 June 1998",
+      "address": "Allen Gunda, KOTA, Rajasthan",
+      "id": "NVSNlbd"
+    },
+    {
+      "name": "Prashant Tyagi",
+      "email": "prashant.tyagi@nagarro.com",
+      "password": "prash1234@#`",
+      "phone": "09876543210",
+      "dob": "24th Sep 1992",
+      "address": "Muzaffer Nagar, Utter Pradesh India",
+      "chData": [
+        "213",
+        "100",
+        "670",
+        "124"
+      ],
+      "id": "RU~Ox~e"
+    },
+    {
+      "name": "Ayush Jain",
+      "email": "ayush.jain@nagarro.com",
+      "password": "ayush1234~@#",
+      "phone": "98738463784",
+      "dob": "03 May 1992",
+      "address": "Amritsar Punjab",
+      "chData": [
+        "80",
+        "200",
+        "300",
+        "400"
+      ],
+      "id": "gSWByRm"
+    },
+    {
+      "name": "Aaftab Alam",
+      "email": "aaftab@gmail.com",
+      "password": "hiaffy1#",
+      "phone": "9218372836982",
+      "dob": "24th Sep 1992",
+      "address": "F-288, 5th Floor, Gorakhpur",
+      "chData": [
+        "10",
+        "20",
+        "40"
+      ],
+      "id": "LrUV23Y"
+    },
+    {
+      "name": "John Doe",
+      "email": "john@domain.com",
+      "password": "john123#$%`",
+      "phone": "0987654321",
+      "dob": "05 August 1990",
+      "address": "United Kingdom",
+      "chData": [
+        "213",
+        "2342",
+        "2343",
+        "2340"
+      ],
+      "id": "RboogF1"
+    },
+    {
+      "name": "Adam Gilchrist",
+      "email": "adam@domain.com",
+      "password": "adam@1234$%",
+      "phone": "2384y839879",
+      "dob": "05/08/1990",
+      "address": "Sydney, Australia ",
+      "chData": [
+        "12",
+        "13",
+        "14",
+        "19"
+      ],
+      "id": "AH6_wsn"
+    },
+    {
+      "name": "Saurabh Maheshwari",
+      "email": "saurabh@dsdfkjh.wowj",
+      "password": "saurabh@1234`",
+      "phone": "2098402840294",
+      "dob": "05/08/1990",
+      "address": "Gurgaon",
+      "chData": [
+        "130",
+        "230",
+        "300",
+        "200"
+      ],
+      "id": "KyfVIXi"
+    },
+    {
+      "name": "Aadil Khan",
+      "email": "aadil.khan@nagarro.com",
+      "password": "adil123",
+      "phone": "9891507445",
+      "dob": "05/08/1990",
+      "address": "Shaheen Bagh, Abul Fazal Encl-2",
+      "chData": [
+        "100",
+        "20",
+        "30",
+        "40"
+      ],
+      "id": "BUskbxA"
+    },
+    {
+      "name": "adsf.",
+      "email": "sdl",
+      "password": "sdln",
+      "phone": "fln",
+      "dob": "wfn",
+      "address": "feql`",
+      "chData": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "id": "5Ma0EOh"
+    }
+  ]
+}
