@@ -1,15 +1,11 @@
- [
+{
+  "campaigns": [
     {
       "date": "2017-05-01",
       "name": "Test Whatsapp",
       "img": "whatsapp.png",
       "country": "us",
       "view": "VIEW PRICING",
-      "actionItems": {
-          'action1': 'csv',
-          'action2': 'reports',
-          'action3': 'schedule'
-      },
       "id": "NVSNlbd0"
     },
     {
@@ -18,11 +14,6 @@
       "img": "whatsapp.png",
       "country": "us",
       "view": "VIEW PRICING",
-      "actionItems": {
-          'action1': 'csv',
-          'action2': 'reports',
-          'action3': 'schedule'
-      },
       "id": "NVSNlbd1"
     },
     {
@@ -31,11 +22,6 @@
       "img": "whatsapp.png",
       "country": "us",
       "view": "VIEW PRICING",
-      "actionItems": {
-          'action1': 'csv',
-          'action2': 'reports',
-          'action3': 'schedule'
-      },
       "id": "NVSNlbd2"
     },
     {
@@ -44,11 +30,6 @@
       "img": "whatsapp.png",
       "country": "us",
       "view": "VIEW PRICING",
-      "actionItems": {
-          'action1': 'csv',
-          'action2': 'reports',
-          'action3': 'schedule'
-      },
       "id": "NVSNlbd3"
     },
     {
@@ -57,11 +38,7 @@
       "img": "whatsapp.png",
       "country": "us",
       "view": "VIEW PRICING",
-      "actionItems": {
-          'action1': 'csv',
-          'action2': 'reports',
-          'action3': 'schedule'
-      },
       "id": "NVSNlbd4"
     }
   ]
+}
