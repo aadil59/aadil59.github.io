@@ -39,8 +39,7 @@ body p, body em {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
 }
-
-footer > a {
+footer a {
     font-size: 10px;
     display: inline-block;
     vertical-align: middle;
