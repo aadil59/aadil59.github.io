@@ -1,5 +1,6 @@
 footer {
-    padding-bottom: 3em ;
+    padding-bottom: 3em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .jumbotron {
@@ -39,6 +40,9 @@ body p, body em {
     font-weight: 100;
 }
 
-footer {
-    font-family: 'Montserrat', sans-serif;
+footer > a {
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 6px;
 }
